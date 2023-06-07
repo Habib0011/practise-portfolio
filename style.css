@@ -1,0 +1,41 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+span{
+    color: rgb(255, 98, 0);
+}
+.main{
+    display: flex;
+    background-color: rgba(255, 230, 71, 0.878);
+    border: 15px solid rgb(89, 17, 17);
+    border-radius: 10px;
+    margin-bottom: 150px;
+}
+.half-width{
+    width: 50%;
+    padding: 25px;
+    margin-left: 55px;
+    margin-right: 20px;
+}
+.half-width a{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    color: wheat;
+    font-size: 25px;
+    font-weight: 700;
+    
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.half-width p{
+    font-size: 25px;
+}
+.half-width img{
+    width: 80%;
+}
+.ten{
+    background-color: rgb(121, 3, 84);
+    color: rgba(255, 255, 255, 0.874);
+    font-weight: 500;
+}
