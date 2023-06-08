@@ -1,7 +1,7 @@
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-span{
+.orang{
     color: rgb(255, 98, 0);
 }
 .main{
@@ -38,4 +38,40 @@ span{
     background-color: rgb(121, 3, 84);
     color: rgba(255, 255, 255, 0.874);
     font-weight: 500;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+.experience{
+    display: flex;
+    margin-bottom: 150px;
+  
+}
+.developer{
+    width: 50%;
+    padding: 10px;
+    margin-left: 50px;
+    margin-right: 10px;
+    box-shadow: 10px 10px 40px;
+    border-left: 7px solid orange;
+    border-radius: 5px;
+    text-align: justify;  
+}
+.baby{
+    width: 50%;
+    padding: 25px;
+    margin-left: 55px;
+    margin-right: 20px;
+    box-shadow: 10px 10px 40px;
+    border-left: 7px solid blue;
+    border-radius: 5px;
+    text-align: justify;
+
+}
+p{
+    text-align: center;
+    
 }
