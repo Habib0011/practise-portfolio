@@ -17,6 +17,8 @@ body{
     margin-left: 55px;
     margin-right: 20px;
 }
+
+
 .half-width a{
     text-decoration: none;
     background-image: linear-gradient(orange, tomato);
@@ -32,7 +34,7 @@ body{
     font-size: 25px;
 }
 .half-width img{
-    width: 80%;
+    width: 100%;
 }
 .ten{
     background-color: rgb(121, 3, 84);
@@ -52,13 +54,15 @@ h2{
 }
 .developer{
     width: 50%;
-    padding: 10px;
-    margin-left: 50px;
+    padding: 25px;
+    margin-left: 40px;
     margin-right: 10px;
     box-shadow: 10px 10px 40px;
     border-left: 7px solid orange;
     border-radius: 5px;
-    text-align: justify;  
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: justify;
 }
 .baby{
     width: 50%;
@@ -69,9 +73,16 @@ h2{
     border-left: 7px solid blue;
     border-radius: 5px;
     text-align: justify;
+    border-radius: 5px;
+    padding-top: 50px;
 
 }
 p{
+   
+    font-size: 20px;
+    text-align: justify;
+}
+.foot{
     text-align: center;
-    
+   color: brown;
 }
